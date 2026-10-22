@@ -1,0 +1,26 @@
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local inputs, provider responses, and generated research artifacts
+data/
+*.csv
+*.jsonl
+*.pdf
+paper_text.txt
+run_*.txt
+results/
+outputs/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
